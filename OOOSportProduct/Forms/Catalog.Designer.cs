@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Catalog));
             this.tableLayoutPanelTop = new System.Windows.Forms.TableLayoutPanel();
             this.labelText = new System.Windows.Forms.Label();
             this.buttonExit = new System.Windows.Forms.Button();
@@ -313,9 +314,10 @@
             this.Controls.Add(this.tableLayoutPanelFill);
             this.Controls.Add(this.tableLayoutPanelTop);
             this.Controls.Add(this.tableLayoutPanelBottom);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(1421, 715);
             this.Name = "Catalog";
-            this.Text = "Catalog";
+            this.Text = "Каталог";
             this.tableLayoutPanelTop.ResumeLayout(false);
             this.tableLayoutPanelTop.PerformLayout();
             this.tableLayoutPanelFill.ResumeLayout(false);

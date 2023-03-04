@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ProductInfo));
             this.tableLayoutPanelFill = new System.Windows.Forms.TableLayoutPanel();
             this.labeArtikul = new System.Windows.Forms.Label();
             this.labelName = new System.Windows.Forms.Label();
@@ -444,8 +445,9 @@
             this.Controls.Add(this.tableLayoutPanelFill);
             this.Controls.Add(this.tableLayoutPanelTop);
             this.Controls.Add(this.tableLayoutPanelBottom);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ProductInfo";
-            this.Text = "ProductInfo";
+            this.Text = "Информация о товаре";
             this.tableLayoutPanelFill.ResumeLayout(false);
             this.tableLayoutPanelFill.PerformLayout();
             this.tableLayoutPanelTop.ResumeLayout(false);
