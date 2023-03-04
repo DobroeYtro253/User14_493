@@ -15,3 +15,4 @@ C:\Users\ipet2\Desktop\DE\OOOSportProduct\OOOSportProduct\bin\Debug\EntityFramew
 C:\Users\ipet2\Desktop\DE\OOOSportProduct\OOOSportProduct\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\ipet2\Desktop\DE\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.csproj.CopyComplete
 C:\Users\ipet2\Desktop\DE\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.Forms.Catalog.resources
+C:\Users\ipet2\Desktop\DE\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.Forms.ProductInfo.resources

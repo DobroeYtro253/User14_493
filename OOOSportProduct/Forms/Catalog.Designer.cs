@@ -37,7 +37,6 @@
             this.labelFilter = new System.Windows.Forms.Label();
             this.labelSort = new System.Windows.Forms.Label();
             this.labelProis = new System.Windows.Forms.Label();
-            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.textBoxSearch = new System.Windows.Forms.TextBox();
             this.comboBoxFiltr = new System.Windows.Forms.ComboBox();
             this.comboBoxSort = new System.Windows.Forms.ComboBox();
@@ -48,10 +47,11 @@
             this.ColumnDescription = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnSale = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.labelCount = new System.Windows.Forms.Label();
+            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanelTop.SuspendLayout();
             this.tableLayoutPanelFill.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewData)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanelTop
@@ -190,17 +190,6 @@
             this.labelProis.TabIndex = 5;
             this.labelProis.Text = "Производитель";
             // 
-            // pictureBoxLogo
-            // 
-            this.pictureBoxLogo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBoxLogo.Image = global::OOOSportProduct.Properties.Resources.logo;
-            this.pictureBoxLogo.Location = new System.Drawing.Point(3, 3);
-            this.pictureBoxLogo.Name = "pictureBoxLogo";
-            this.pictureBoxLogo.Size = new System.Drawing.Size(184, 59);
-            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxLogo.TabIndex = 8;
-            this.pictureBoxLogo.TabStop = false;
-            // 
             // textBoxSearch
             // 
             this.textBoxSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
@@ -265,6 +254,7 @@
             this.tableLayoutPanelFill.SetRowSpan(this.dataGridViewData, 6);
             this.dataGridViewData.Size = new System.Drawing.Size(1399, 414);
             this.dataGridViewData.TabIndex = 10;
+            this.dataGridViewData.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridViewData_CellMouseDoubleClick);
             // 
             // ColumnArtikul
             // 
@@ -304,6 +294,17 @@
             this.labelCount.Size = new System.Drawing.Size(0, 28);
             this.labelCount.TabIndex = 11;
             // 
+            // pictureBoxLogo
+            // 
+            this.pictureBoxLogo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBoxLogo.Image = global::OOOSportProduct.Properties.Resources.logo;
+            this.pictureBoxLogo.Location = new System.Drawing.Point(3, 3);
+            this.pictureBoxLogo.Name = "pictureBoxLogo";
+            this.pictureBoxLogo.Size = new System.Drawing.Size(184, 59);
+            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxLogo.TabIndex = 8;
+            this.pictureBoxLogo.TabStop = false;
+            // 
             // Catalog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -319,8 +320,8 @@
             this.tableLayoutPanelTop.PerformLayout();
             this.tableLayoutPanelFill.ResumeLayout(false);
             this.tableLayoutPanelFill.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewData)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.ResumeLayout(false);
 
         }

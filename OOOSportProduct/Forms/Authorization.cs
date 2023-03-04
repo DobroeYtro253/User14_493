@@ -41,6 +41,7 @@ namespace OOOSportProduct
                 if (user.userPassword == textBoxPassword.Text)
                 {
                     MessageBox.Show("Авторизация успешна \r Вы вошли под ролью: " + Helper.DbContext.Roles.Where(x => x.roleID == user.userRoleId).FirstOrDefault().roleName );
+                    Helper.Role = Helper.DbContext.Roles.Where(x => x.roleID == user.userRoleId).FirstOrDefault().roleID;
                     Catalog ca = new Catalog();
                     this.Hide();
                     ca.ShowDialog();
@@ -53,6 +54,7 @@ namespace OOOSportProduct
         private void buttonGuest_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Авторизация успешна \r Вы вошли под ролью: Гость");
+            Helper.Role = 0;
             Catalog ca = new Catalog();
             this.Hide();
             ca.ShowDialog();

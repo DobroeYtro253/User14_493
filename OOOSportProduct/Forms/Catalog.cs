@@ -149,6 +149,21 @@ namespace OOOSportProduct.Forms
             labelCount.Text = kol2 + " из " + kol1;
         }
 
+        private void dataGridViewData_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            Helper.Artikul = dataGridViewData[0, e.RowIndex].Value.ToString();
+            Helper.New = 0;
+            ProductInfo inf = new ProductInfo();
+            this.Hide();
+            inf.ShowDialog();
+            this.Show();
+            Helper.DbContext = new Classes.Context();
+            View(Helper.DbContext.Products);
+            kol1 = kol2;
+            labelCount.Text = kol2 + " из " + kol1;
+
+        }
+
         private void buttonExit_Click(object sender, EventArgs e)
         {
             this.Close();
