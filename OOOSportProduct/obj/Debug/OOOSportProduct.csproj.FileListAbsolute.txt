@@ -1,0 +1,17 @@
+C:\Users\ipet2\Desktop\DE\OOOSportProduct\OOOSportProduct\bin\Debug\OOOSportProduct.exe.config
+C:\Users\ipet2\Desktop\DE\OOOSportProduct\OOOSportProduct\bin\Debug\OOOSportProduct.exe
+C:\Users\ipet2\Desktop\DE\OOOSportProduct\OOOSportProduct\bin\Debug\OOOSportProduct.pdb
+C:\Users\ipet2\Desktop\DE\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.csproj.AssemblyReference.cache
+C:\Users\ipet2\Desktop\DE\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.csproj.SuggestedBindingRedirects.cache
+C:\Users\ipet2\Desktop\DE\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.Authorization.resources
+C:\Users\ipet2\Desktop\DE\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.Properties.Resources.resources
+C:\Users\ipet2\Desktop\DE\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.csproj.GenerateResource.cache
+C:\Users\ipet2\Desktop\DE\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.csproj.CoreCompileInputs.cache
+C:\Users\ipet2\Desktop\DE\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.exe
+C:\Users\ipet2\Desktop\DE\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.pdb
+C:\Users\ipet2\Desktop\DE\OOOSportProduct\OOOSportProduct\bin\Debug\EntityFramework.dll
+C:\Users\ipet2\Desktop\DE\OOOSportProduct\OOOSportProduct\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ipet2\Desktop\DE\OOOSportProduct\OOOSportProduct\bin\Debug\EntityFramework.xml
+C:\Users\ipet2\Desktop\DE\OOOSportProduct\OOOSportProduct\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ipet2\Desktop\DE\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.csproj.CopyComplete
+C:\Users\ipet2\Desktop\DE\OOOSportProduct\OOOSportProduct\obj\Debug\OOOSportProduct.Forms.Catalog.resources
