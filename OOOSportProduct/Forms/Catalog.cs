@@ -52,7 +52,6 @@ namespace OOOSportProduct.Forms
                     }
                     dataGridViewData[1, i].Value = bmp;
                     decimal sale = product.ProductCost - (product.ProductCost / 100 * product.productSale);
-                    //decimal sale = (1 - (product.productSale / 100)) * product.ProductCost;
                     dataGridViewData[2, i].Value = $"Наименование: {product.ProductName} \rОписание товара: {product.ProductDescription} \rПроизводитель: {Helper.DbContext.Manufacturers.Where(x => x.manufacturerID == product.productManufacturerId).FirstOrDefault().manufacturerName}" +
                         $" \rЦена: {product.ProductCost} \rСкидка: {product.productSale} \rЦена со скидкой: {sale}";
                     dataGridViewData[3, i].Value = "Количество на складе: " + product.productCount;
@@ -93,7 +92,6 @@ namespace OOOSportProduct.Forms
                     }
                     dataGridViewData[1, i].Value = bmp;
                     decimal sale = product.ProductCost - (product.ProductCost / 100 * product.productSale);
-                    //decimal sale = (1 - (product.productSale / 100)) * product.ProductCost;
                     dataGridViewData[2, i].Value = $"Наименование: {product.ProductName} \rОписание товара: {product.ProductDescription} \rПроизводитель: {Helper.DbContext.Manufacturers.Where(x => x.manufacturerID == product.productManufacturerId).FirstOrDefault().manufacturerName}" +
                         $" \rЦена: {product.ProductCost} \rСкидка: {product.productSale} \rЦена со скидкой: {sale}";
                     dataGridViewData[3, i].Value = "Количество на складе: " + product.productCount;

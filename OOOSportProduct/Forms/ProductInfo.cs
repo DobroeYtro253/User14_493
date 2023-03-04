@@ -36,7 +36,7 @@ namespace OOOSportProduct.Forms
             {
                 comboBoxCategory.Items.Add(item.categoryName);
             }
-            if (Helper.Role != 0)
+            if (Helper.Role == 1)
             {
                 tableLayoutPanelFill.Enabled = true;
             }
